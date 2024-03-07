@@ -1,0 +1,40 @@
+:root {
+    /* for color */
+  --main-background: #2a3447;
+  --soft-background: #384256; 
+  --dark-background: #222b3c; 
+  /* for texts */
+  --main-color: white; 
+  --soft-color: #ddd; 
+  --dark-color: #2a3447; 
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.main{
+  font-family: 'Inter' , sans-serif;
+  background-color: var(--main-background);
+  color: var(--main-color);
+}
+.container{
+    display: flex;
+}
+.menu-container{
+    padding: 5px 10px;
+    width: 200px;
+    border-right: 2px solid var(--soft-background);
+}
+.content-container{
+    padding: 5px 10px;
+    width: 100%;
+     
+}
